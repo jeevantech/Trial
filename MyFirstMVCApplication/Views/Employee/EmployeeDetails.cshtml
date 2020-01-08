@@ -1,0 +1,21 @@
+﻿@model EmployeeModel
+@{
+    ViewData["Title"] = "EmployeeDetails";
+}
+
+@if (Model != null)
+{   <div>
+    Employee Details </div>
+
+    <div>
+    Name: @Model.EmpName </div>
+
+    <div>
+    Age: @Model.EmpAge </div>
+
+    <div>
+    Gender: @Model.EmpGender </div>
+    } else { <div> Employee Details not found </div>
+    }
+
+ 
